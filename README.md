@@ -11,7 +11,7 @@ log
 ⁡
 𝑛
 )
- insertion and lookup when maintaining sorted order. For the final project, I performed a runtime analysis and determined that a hash table was the best choice because it offers fast average‑case lookup and insertion 
+ insertion and lookup when maintaining sorted order. For one project, I performed a runtime analysis and determined that a hash table was the best choice because it offers fast average‑case lookup and insertion 
 𝑂
 (
 1
