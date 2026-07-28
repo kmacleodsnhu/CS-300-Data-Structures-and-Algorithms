@@ -1,4 +1,5 @@
 # CS-300-Data-Structures-and-Algorithms
+This project focuses on designing efficient ways to manage course data and prerequisites for academic advisors. It compares multiple data structures and evaluates their performance, scalability, and suitability for fast lookup, sorting, and printing. 
 
 # What was the problem you were solving in the projects for this course?
 The problem I was solving was how to manage a list of college courses and their prerequisites in a way that allowed academic advisors to easily search, sort, and print course information. The system needed to support adding, deleting, inserting, and searching for courses so advisors could quickly access accurate course data for students.
@@ -17,6 +18,16 @@ log
 1
 )
 , allows the file to be processed in a single pass, supports quick searching by course number, and scales well for larger datasets. Understanding these differences helped me design the program with efficiency in mind from the start.
+
+# Example Code Snippet
+```cpp
+// Example: Searching for a course in a hash table
+Course* course = hashTable.search("CS300");
+if (course != nullptr) {
+    course->print();
+}
+```
+
 
 # How did you overcome any roadbloacks you encountered while going through the sctivities or project?
 One roadblock I encountered was getting the formatting right when parsing the input file before inserting data into the structure. I overcame this by using string functions to trim whitespace and clean the input so each course and prerequisite could be processed correctly.
