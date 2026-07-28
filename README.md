@@ -17,6 +17,7 @@ log
 1
 )
 , allows the file to be processed in a single pass, supports quick searching by course number, and scales well for larger datasets. Understanding these differences helped me design the program with efficiency in mind from the start.
+
 # How did you overcome any roadbloacks you encountered while going through the sctivities or project?
 One roadblock I encountered was getting the formatting right when parsing the input file before inserting data into the structure. I overcame this by using string functions to trim whitespace and clean the input so each course and prerequisite could be processed correctly.
 
