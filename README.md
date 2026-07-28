@@ -37,3 +37,6 @@ This project expanded my approach by showing me the importance of understanding 
 
 # How has your work on this project evolved the way you write programs that are maintainable, readable, and adaptable?
 This project improved my coding practices by helping me avoid unnecessary complexity. Keeping the design simple and focused led to more modular code, which is easier to read, maintain, and update in the future.
+
+![Data Structures](https://img.shields.io/badge/Data%20Structures-CS300-blue)
+
